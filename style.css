@@ -1,0 +1,18 @@
+body{
+    height: 2370px;
+}
+
+
+.jumbotron{
+    padding-top: 6rem;
+    background-color: #bfd5fe;
+}
+.jumbotron img{
+    border-radius: 80px;
+}
+#project{
+    background-color: #bfd5fe;
+}
+section{
+    padding-top: 5rem;
+}
