@@ -2,18 +2,53 @@ body{
     height: 2370px;
     font-family: 'Poppins', sans-serif;
 }
-
-
+/* navbar color */
+.nav-warna{
+    background-color: #345a93;
+    transition: all ease-in-out 0.4s;
+}
+.bg-transaparent{
+    transition: all ease-in-out 0.4s;
+}
 .jumbotron{
     padding-top: 6rem;
-    background-color: #bfd5fe;
+    background-image: url(https://wallpaperbat.com/img/812244-website-wallpaper.jpg);
+    background-size: cover;
+    background-repeat: repeat;
 }
 .jumbotron img{
     border-radius: 80px;
 }
+#about p{
+    color: #666667;
+}
+#services{
+    background-color: #345a93;
+}
+.card :hover{
+    background-color: rgb(199, 199, 199);
+}
+.single-service{
+    background-color: #fff;
+    border: 1px solid #eceff8;
+    border-radius: 5px;
+    padding: 25px;
+    transition: all .3s ease-out 0s;
+}
+.service-icon{
+    font-size: 50px;
+    justify-content: center;
+    color: #345a93;
+}
+.service-title{
+    font-weight: bold;
+}
 #project{
-    background-color: #bfd5fe;
+    background-color: #345a93;
 }
 section{
     padding-top: 5rem;
+}
+.bg-color{
+    background-color: #345a93;
 }
